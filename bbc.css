@@ -1,0 +1,280 @@
+/* 
+Header Navigation
+*/
+.nav-style {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #000000;
+    overflow:hidden;
+}
+.nav-style ul {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.nav-style li {
+    display: inline-block;
+    width: 8%;
+}
+.nav-style li a {
+    color: #ffffff;
+    font-size: 13px;
+    border-right: 1px solid lightgrey;
+    padding: 12px 28px;
+    text-decoration: none;
+    background-color: 000000;
+    text-align: center;
+}
+select {
+    background-color: #000000;
+    color:#ffffff;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.sign-in {
+    margin-left: 5px;
+    padding: 0;
+}
+.search-bar {
+    margin-right: 85px;
+    float: right;
+    position: relative;
+}
+.search-icon {
+    float: right;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    border: 1px solid white;;
+    background-color: #ffffff;
+    overflow:hidden;
+    cursor: pointer;
+    font-size: 13px;
+}
+/* 
+Body
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 
+Welcome bbc H3
+*/
+
+.date {
+    text-align: right;
+    position: absolute;
+    right: 10%;
+    top: 6.3%;
+    color: #000000;
+    opacity: 40%;
+}
+.welcome {
+    position: relative;
+    margin-left: 143px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.top-w {
+    margin-top: 15px;
+}
+/* 
+Main section
+*/
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.center {
+    width: auto;
+}
+
+/* 
+First section grouping images
+*/
+
+.first-container {
+    width: 100%;
+    position: relative;
+}
+.main img {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 15px;
+    
+}
+.group img{
+    width: 24%;
+    
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 25%;
+    margin-top: 15px;
+  
+}
+.group-one img{
+    width: 24%;
+   
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+}
+.group-two img{
+    width: 24%;
+    
+    display: inline-block;
+    position: absolute;
+    bottom: .8%;
+    right: 25%;
+}
+.group-three img{
+    width: 24%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: .8%;
+}
+/*
+Fisrt section text on big image
+*/
+.Israel {
+    width: 50%;
+    position: absolute;
+    top: 56%;
+    right: 49%;
+} .Israel a p {
+    text-decoration: none;
+    font-size: 15.4px;
+}
+.Israel a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 80%;
+}
+.Israel h2 {
+    opacity: 95%;
+}
+img {
+ filter: brightness(70%);
+}
+/*
+Text on small images
+*/
+
+.first {
+    width: 22%;
+    position: absolute;
+    bottom: 46.5%;
+    right: 26%;
+   
+}
+.first a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.first h6 {
+    opacity: 72%;
+    margin-top: 0;
+    color: #ffffff;
+}
+.first p {
+    font-size: 19px;
+    opacity: 90%;
+}
+.second {
+    width: 22%;
+    position: absolute;
+    bottom: 47%;
+    right: 1%;
+}
+.second p {
+    font-size: 19px;
+    opacity: 90%;
+}
+.second a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.second h6 {
+    opacity: 75%;
+    margin-top: 0;
+    color: #ffffff;
+}
+.third {
+    width: 22%;
+    position: absolute;
+    bottom: -4%;
+    right: 26%;
+}
+.third p {
+    font-size: 19px;
+    opacity: 90%;
+}
+.third a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.third h6 {
+    opacity: 75%;
+    margin-top: 0;
+    color: #ffffff;
+}
+.fourth {
+    width: 22%;
+    position: absolute;
+    bottom: -4%;
+    right: 1%;
+}
+.fourth p {
+    font-size: 19px;
+    opacity: 90%;
+}
+.fourth a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.fourth h6 {
+    opacity: 90%;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+/* 
+Second section
+*/
+
+.second-container {
+    width: 100%;
+    column-count: 3;
+}
+.second-container img {
+    width: 100%;
+    
+}
+.news {
+    width: 100%;
+    margin-left: 0;
+}
+.col-1 img{
+    margin-left: 0;
+}
+.col-2 img {
+    margin-left: 0;
+}
+.second-container p {
+    font-size: 14px;
+}
+.second-container a {
+    color: #000000;
+    text-decoration: none;
+}
